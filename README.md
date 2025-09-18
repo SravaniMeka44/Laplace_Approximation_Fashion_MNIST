@@ -32,3 +32,15 @@ This project demonstrates **uncertainty quantification** using Laplace Approxima
 - Visualizes predictions with confidence scores 📈
 - Applies Laplace Approximation to estimate predictive uncertainty 🔍
 - Plots uncertainty (entropy) for individual predictions
+
+## 🚀 How to Run
+```bash
+# Clone repository
+git clone https://github.com/SravaniMeka44/Laplace_Approximation_Fashion_MNIST.git
+cd Laplace_Approximation_Fashion_MNIST
+
+# Install dependencies (example)
+pip install torch torchvision matplotlib numpy laplace-torch
+
+# Open the Jupyter Notebook
+jupyter notebook FashionMNIST.ipynb
